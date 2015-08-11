@@ -10,7 +10,10 @@
     "pdfjs-dist": ">=1.0.0"
   },
   "ignore": [
-    "**/.*",
+    "bower_components",
+    "node_modules",
+    ".gitignore",
+    "Gruntfile.js",
     "package.json"
   ]
 }

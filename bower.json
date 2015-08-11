@@ -1,0 +1,16 @@
+{
+  "name": "ng-pdf-viewer",
+  "version": "0.0.1",
+  "description": "A minimal pdf viewing directive for Angular.",
+  "license": "MIT",
+  "homepage": "https://github.com/parrisvarney/ng-pdf-viewer",
+  "main": "./src/ng-pdf-viewer.js",
+  "dependencies": {
+    "angular": "^1.x",
+    "pdfjs-dist": ">=1.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "package.json"
+  ]
+}

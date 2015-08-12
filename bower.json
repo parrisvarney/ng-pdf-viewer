@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "angular": "^1.x",
-    "pdfjs-dist": ">=1.0.0"
+    "pdfjs-dist": ">=1.1.377"
   },
   "ignore": [
     "bower_components",

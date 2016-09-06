@@ -35,6 +35,16 @@ angular.module('pdf-viewer', []).directive('pdfViewer', ['$q', function($q) {
                             }
                         });
                     };
+    
+
+                    var cleanCanvas = function(){
+                        var parentElement = element[0];
+                        while (parentElement.firstChild) {
+                            parentElement.removeChild(parentElement.firstChild);
+                        }
+                    };
+
+                    cleanCanvas();
 
                     getPages(1, pdf.numPages);
                 });

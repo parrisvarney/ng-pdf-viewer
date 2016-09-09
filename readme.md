@@ -27,7 +27,7 @@ elements.
 1. Include the pdf.js and ng-pdf-viewer.js source files
 
     ```html
-    <script src="bower_components/pdfjs-dist/build/pdf.js"></script>
+    <script src="bower_components/pdfjs-dist/build/pdf.combined.js"></script>
     <script src="bower_components/ng-pdf-viewer/src/ng-pdf-viewer.min.js"></script>
     ```
 1. Include the directive as a dependency:
